@@ -1,12 +1,11 @@
-import React from 'react'
 import ReactDOM from 'react-dom'
 
-import App from './App'
+// import { CounterApp } from './components/01-useState/CounterApp.jsx'
+import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook.jsx'
+
 import './index.css'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <CounterWithCustomHook />,
   document.getElementById('root')
 )
