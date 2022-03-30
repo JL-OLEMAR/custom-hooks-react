@@ -6,3 +6,7 @@ body {
 .text-custom {
   text-align: right;
 }
+
+.blockquote {
+  display: flex;
+}
