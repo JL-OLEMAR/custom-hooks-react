@@ -5,7 +5,9 @@ import { useFetch } from '../../hooks/useFetch.jsx'
 
 export const Layout = () => {
   const { counter, increment } = useCounter(1)
-  const { data } = useFetch(`https://www.breakingbadapi.com/api/quotes/${counter}`)
+  const { data } = useFetch(
+    `https://www.breakingbadapi.com/api/quotes/${counter}`
+  )
 
   /* !!data === (double negation) === false
                     ó
@@ -28,7 +30,9 @@ export const Layout = () => {
       </blockquote>
 
       <pre>{JSON.stringify(boxSize, null, 3)}</pre>
-      <button className='btn btn-primary' onClick={increment}>Next quote</button>
+      <button className='btn btn-primary' onClick={increment}>
+        Next quote
+      </button>
     </div>
   )
 }

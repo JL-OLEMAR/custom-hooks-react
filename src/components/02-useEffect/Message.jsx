@@ -5,7 +5,7 @@ export const Message = () => {
   const { x, y } = coords
 
   useEffect(() => {
-    const mouseMove = e => {
+    const mouseMove = (e) => {
       const coords = { x: e.x, y: e.y }
 
       setCoords(coords)

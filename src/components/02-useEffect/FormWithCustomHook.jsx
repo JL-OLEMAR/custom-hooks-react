@@ -15,7 +15,7 @@ export const FormWithCustomHook = () => {
     console.log('change email')
   }, [email])
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault()
 
     console.log(formValues)

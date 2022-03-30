@@ -12,7 +12,4 @@ import { Layout } from './components/05-useLayoutEffect/Layout.jsx'
 
 import './index.css'
 
-ReactDOM.render(
-  <Layout />,
-  document.getElementById('root')
-)
+ReactDOM.render(<Layout />, document.getElementById('root'))
