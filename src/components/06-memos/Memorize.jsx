@@ -20,7 +20,7 @@ export const Memorize = () => {
       </button>
 
       <button
-        className='btn btn-outline-secondary ml-3'
+        className='btn btn-outline-secondary ms-3'
         onClick={() => setShow(!show)}
       >
         Show/Hide {JSON.stringify(show)}
