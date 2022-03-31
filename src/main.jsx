@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom'
 
-import { CallbackHook } from './components/06-memos/CallbackHook.jsx'
+import { Father } from './components/07-memo-task/Father.jsx'
 
 // import { CounterApp } from './components/01-useState/CounterApp.jsx'
 // import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook.jsx'
@@ -12,7 +12,8 @@ import { CallbackHook } from './components/06-memos/CallbackHook.jsx'
 // import { Layout } from './components/05-useLayoutEffect/Layout.jsx'
 // import { Memorize } from './components/06-memos/Memorize.jsx'
 // import { MemoHook } from './components/06-memos/MemoHook.jsx'
+// import { CallbackHook } from './components/06-memos/CallbackHook.jsx'
 
 import './index.css'
 
-ReactDOM.render(<CallbackHook />, document.getElementById('root'))
+ReactDOM.render(<Father />, document.getElementById('root'))
