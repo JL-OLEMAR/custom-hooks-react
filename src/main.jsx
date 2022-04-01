@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom'
 
-import { Father } from './components/07-memo-task/Father.jsx'
+import { TodoApp } from './components/08-useReducer/TodoApp.jsx'
 
 // import { CounterApp } from './components/01-useState/CounterApp.jsx'
 // import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook.jsx'
@@ -13,7 +13,8 @@ import { Father } from './components/07-memo-task/Father.jsx'
 // import { Memorize } from './components/06-memos/Memorize.jsx'
 // import { MemoHook } from './components/06-memos/MemoHook.jsx'
 // import { CallbackHook } from './components/06-memos/CallbackHook.jsx'
+// import { Father } from './components/07-memo-task/Father.jsx'
 
 import './index.css'
 
-ReactDOM.render(<Father />, document.getElementById('root'))
+ReactDOM.render(<TodoApp />, document.getElementById('root'))

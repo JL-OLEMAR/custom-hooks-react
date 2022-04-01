@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 50px;
+}
+
+.list-group-item {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding: 0;
+}
+
+.list-group-item > p {
+  cursor: pointer;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.list-group-item > button {
+  margin-right: 20px;
+}
+
+.btn-settings {
+  width: 100%;
+  margin-top: 0.25rem;
+}
+
+.completed {
+  text-decoration: line-through;
+}
