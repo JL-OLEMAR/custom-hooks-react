@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom'
 
-import { MainApp } from './components/09-useContext/MainApp.jsx'
+import { Search } from './components/10-useDebounce/Search.jsx'
 
 // import { CounterApp } from './components/01-useState/CounterApp.jsx'
 // import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook.jsx'
@@ -15,7 +15,8 @@ import { MainApp } from './components/09-useContext/MainApp.jsx'
 // import { CallbackHook } from './components/06-memos/CallbackHook.jsx'
 // import { Father } from './components/07-memo-task/Father.jsx'
 // import { TodoApp } from './components/08-useReducer/TodoApp.jsx'
+// import { MainApp } from './components/09-useContext/MainApp.jsx'
 
 import './index.css'
 
-ReactDOM.render(<MainApp />, document.getElementById('root'))
+ReactDOM.render(<Search />, document.getElementById('root'))
