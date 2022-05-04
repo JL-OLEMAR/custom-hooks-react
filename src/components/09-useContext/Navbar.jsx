@@ -7,14 +7,10 @@ export const Navbar = () => {
         <Link className='navbar-brand' to='/'>
           useContext
         </Link>
+
         <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
           <div className='navbar-nav'>
-            <NavLink
-              exact
-              activeClassName='active'
-              className='nav-link'
-              to='/'
-            >
+            <NavLink exact activeClassName='active' className='nav-link' to='/'>
               Home
             </NavLink>
 

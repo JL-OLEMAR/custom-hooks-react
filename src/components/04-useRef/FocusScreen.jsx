@@ -17,10 +17,7 @@ export const FocusScreen = () => {
         type='text'
       />
 
-      <button
-        className='btn btn-outline-primary mt-3'
-        onClick={handleClick}
-      >
+      <button className='btn btn-outline-primary mt-3' onClick={handleClick}>
         Focus
       </button>
     </div>

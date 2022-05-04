@@ -22,8 +22,7 @@ export const useFetch = (url) => {
       .then((res) => res.json())
       .then(
         (data) =>
-          isMounted.current &&
-          setState({ data, loading: false, error: null })
+          isMounted.current && setState({ data, loading: false, error: null })
       )
       .catch(() => {
         setState({

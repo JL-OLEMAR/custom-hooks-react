@@ -1,4 +1,3 @@
-/* eslint-disable no-useless-return */
 import { useForm } from '../../hooks/useForm.jsx'
 
 export const TodoAdd = ({ handleAddTodo }) => {
@@ -36,10 +35,7 @@ export const TodoAdd = ({ handleAddTodo }) => {
           onChange={handleInputChange}
         />
 
-        <button
-          className='btn btn-outline-primary btn-settings'
-          type='submit'
-        >
+        <button className='btn btn-outline-primary btn-settings' type='submit'>
           Add
         </button>
       </form>

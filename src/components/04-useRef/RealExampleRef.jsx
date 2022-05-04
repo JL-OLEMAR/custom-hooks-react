@@ -12,10 +12,7 @@ export const RealExampleRef = () => {
 
       {show && <MultipleCustomHooks />}
 
-      <button
-        className='btn btn-primary mt-5'
-        onClick={() => setShow(!show)}
-      >
+      <button className='btn btn-primary mt-5' onClick={() => setShow(!show)}>
         Show/Hide
       </button>
     </div>

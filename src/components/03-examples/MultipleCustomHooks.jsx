@@ -1,4 +1,3 @@
-/* eslint-disable multiline-ternary */
 import { useCounter } from '../../hooks/useCounter.jsx'
 import { useFetch } from '../../hooks/useFetch.jsx'
 

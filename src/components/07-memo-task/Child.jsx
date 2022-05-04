@@ -4,10 +4,7 @@ const Child = ({ number, increment }) => {
   console.log('Child render')
 
   return (
-    <button
-      className='btn btn-primary me-3'
-      onClick={() => increment(number)}
-    >
+    <button className='btn btn-primary me-3' onClick={() => increment(number)}>
       {number}
     </button>
   )

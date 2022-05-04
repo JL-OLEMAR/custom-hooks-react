@@ -5,7 +5,6 @@
     "node": true
   },
   "extends": [
-    "standard",
     "plugin:react/recommended",
     "plugin:prettier/recommended",
     "plugin:react-hooks/recommended"
@@ -22,6 +21,11 @@
     "prettier",
     "import"
   ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "no-console": "warn",
     "no-unused-vars": [
@@ -70,18 +74,42 @@
     ],
     "padding-line-between-statements": [
       "warn",
-      {"blankLine": "always", "prev": "*", "next": "return"},
-      {"blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
-      {"blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"]}
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "return"
+      },
+      {
+        "blankLine": "always",
+        "prev": [
+          "const",
+          "let",
+          "var"
+        ],
+        "next": "*"
+      },
+      {
+        "blankLine": "any",
+        "prev": [
+          "const",
+          "let",
+          "var"
+        ],
+        "next": [
+          "const",
+          "let",
+          "var"
+        ]
+      }
     ],
     "prettier/prettier": [
       "warn",
       {
         "arrowParens": "always",
         "bracketSpacing": true,
-        "endOfLine":"auto",
+        "endOfLine": "auto",
         "jsxSingleQuote": true,
-        "printWidth": 75,
+        "printWidth": 80,
         "semi": false,
         "singleQuote": true,
         "tabWidth": 2,
