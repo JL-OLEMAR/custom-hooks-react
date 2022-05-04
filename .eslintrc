@@ -18,7 +18,6 @@
   },
   "plugins": [
     "react",
-    "prettier",
     "import"
   ],
   "settings": {
@@ -100,20 +99,6 @@
           "let",
           "var"
         ]
-      }
-    ],
-    "prettier/prettier": [
-      "warn",
-      {
-        "arrowParens": "always",
-        "bracketSpacing": true,
-        "endOfLine": "auto",
-        "jsxSingleQuote": true,
-        "printWidth": 80,
-        "semi": false,
-        "singleQuote": true,
-        "tabWidth": 2,
-        "trailingComma": "none"
       }
     ]
   }
