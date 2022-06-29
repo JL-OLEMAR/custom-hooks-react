@@ -1,12 +1,11 @@
 body {
-  margin: 0;
-  padding: 70px;
+  padding: 20px;
 }
 
-.text-custom {
-  text-align: right;
+button {
+  margin-right: 10px;
 }
 
-.blockquote {
-  display: flex;
+a {
+  margin-right: 5px;
 }

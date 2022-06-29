@@ -1,22 +1,28 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
 
-import { Search } from './components/10-useDebounce/Search.jsx'
-
-// import { CounterApp } from './components/01-useState/CounterApp.jsx'
-// import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook.jsx'
-// import { SimpleForm } from './components/02-useEffect/SimpleForm.jsx'
-// import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook.jsx'
-// import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks.jsx'
-// import { FocusScreen } from './components/04-useRef/FocusScreen.jsx'
-// import { RealExampleRef } from './components/04-useRef/RealExampleRef.jsx'
-// import { Layout } from './components/05-useLayoutEffect/Layout.jsx'
-// import { Memorize } from './components/06-memos/Memorize.jsx'
-// import { MemoHook } from './components/06-memos/MemoHook.jsx'
-// import { CallbackHook } from './components/06-memos/CallbackHook.jsx'
-// import { Father } from './components/07-memo-task/Father.jsx'
-// import { TodoApp } from './components/08-useReducer/TodoApp.jsx'
-// import { MainApp } from './components/09-useContext/MainApp.jsx'
+// import { HooksApp } from './HooksApp.jsx'
+// import { CounterApp } from './01-useState/CounterApp.jsx'
+// import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook.jsx'
+// import { SimpleForm } from './02-useEffect/SimpleForm.jsx'
+// import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook.jsx'
+// import { MultipleCustomHooks } from './03-examples'
+// import { FocusScreen } from './04-useRef/FocusScreen.jsx'
+// import { Layout } from './05-useLayoutEffect/Layout.jsx'
+// import { Memorize } from './06-memos/Memorize.jsx'
+// import { MemoHook } from './06-memos/MemoHook.jsx'
+// import { CallbackHook } from './06-memos/CallbackHook';
+// import { CallbackHook } from './06-memos/CallbackHook.jsx'
+// import { Father } from './07-memo-task/Father.jsx'
+// import './08-useReducer/intro-reducer'
+// import { TodoApp } from './08-useReducer/TodoApp.jsx'
+import { MainApp } from './09-useContext/MainApp.jsx'
+// import { Search } from './10-useDebounce/Search.jsx'
 
 import './index.css'
 
-ReactDOM.render(<Search />, document.getElementById('root'))
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <MainApp />
+  </BrowserRouter>
+)
