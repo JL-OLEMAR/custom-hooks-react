@@ -4,12 +4,12 @@ export function useCounter(initialState = 10) {
   const [counter, setCounter] = useState(initialState)
 
   const increment = (value = 1) => {
-    setCounter(counter + value)
+    setCounter((preCounter) => preCounter + value)
   }
 
   const decrement = (value = 1) => {
     // if ( counter === 0 ) return;
-    setCounter(counter - value)
+    setCounter((preCounter) => preCounter - value)
   }
 
   const reset = () => {
