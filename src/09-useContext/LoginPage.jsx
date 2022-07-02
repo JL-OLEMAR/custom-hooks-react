@@ -10,10 +10,11 @@ export function LoginPage() {
       <h1>LoginPage</h1>
       <hr />
 
-      <pre>{JSON.stringify(user, null, 3)}</pre>
+      <pre aria-label='pre'>{JSON.stringify(user, null, 3)}</pre>
 
       <button
         className='btn btn-primary'
+        type='button'
         onClick={() =>
           setUser({ id: 123, name: 'Juan', email: 'juan@google.com' })
         }
